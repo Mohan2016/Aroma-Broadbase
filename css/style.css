@@ -1,0 +1,339 @@
+body {
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    /* Slider */
+    .carousel-item {
+      height: 90vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .carousel-caption {
+      bottom: 30%;
+      z-index: 9;
+    }
+    .carousel-caption h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    .carousel-caption p {
+      font-size: 1.25rem;
+      animation: fadeInUp 1s ease-in-out;
+      text-transform: capitalize;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+      padding: 10px 30px;
+      font-weight: 500;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    .text-primary, .btn-primary{
+      color: #00a3c8 !important;
+    }
+
+    /* Section Titles */
+    .section-title {
+      font-weight: 700;
+      color: #003366;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    /* Services */
+    .service-box {
+      background: #fff;
+      border: 1px solid #eee;
+      padding: 30px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+    .service-box:hover {
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transform: translateY(-5px);
+    }
+    .service-box i {
+      font-size: 40px;
+      color: #00a3c8;
+      margin-bottom: 15px;
+    }
+    /* CTA */
+    .cta-section {
+      background-color: #00a3c8;
+      color: #fff;
+      padding: 70px 0;
+      text-align: center;
+    }
+    /* Footer */
+    .footer {
+      background-color: #0d1b2a;
+      color: #ccc;
+      padding: 40px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: #66b2ff;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .page-header {
+      background: url('../images/about.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 120px 0;
+      position: relative;
+    }
+    .page-header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0,0,50,0.6);
+    }
+    .page-header h1 {
+      position: relative;
+      z-index: 2;
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    .section-title {
+      font-weight: 700;
+      color: #003366;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .content-section {
+      padding: 80px 0;
+    }
+    .mission-box {
+      background: #f8f9fa;
+      padding: 40px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+    .mission-box:hover {
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transform: translateY(-5px);
+    }
+    .mission-box i {
+      font-size: 40px;
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+    .team-member img {
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+    .team-member img:hover {
+      transform: scale(1.05);
+    }
+
+    .my_navbar{
+    	padding: 18px 0;
+    }
+    .slider_box{
+    	position: relative;
+    	z-index: 9;
+    }
+    .slider_box::before{
+    	content: '';
+    	    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000000a6;
+    z-index: 1;
+    }
+    ul.my_ulnavbar{}
+    ul.my_ulnavbar li{
+    	margin: 0 0 0 25px;
+    }
+    ul.my_ulnavbar li a{
+    	color: #000 !important;
+    font-weight: 500;
+    text-transform: capitalize;
+    /*letter-spacing: 0.5px;*/
+    font-size: 16px;
+    }
+
+.btn-primary2 {
+    background-color: #00a3c8;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-primary2:hover {
+    background-color: #00a3c8;
+    border: none;
+    color: #fff;
+}
+
+  .sect_about{
+  	/*background-color: #faf8f5;
+    background-image: radial-gradient(circle at 1px 1px, #e0dad1 1px, transparent 0);
+    background-size: 20px 20px;*/
+
+    background-color: #faf8f5;
+    background-image: radial-gradient(circle at 1px 1px, #efeeed 1px, transparent 0);
+    background-size: 6px 6px;
+  }
+a.navbar-brand span{
+      font-size: 30px;
+    font-weight: 600;
+    color: #00a3c8;
+}
+a.navbar-brand span strong{
+      color: #000;
+    font-weight: 600;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+.product-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+.product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.product-card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #00a3c8;
+}
+.product-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+.btn-buy {
+  background-color: #00a3c8;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.btn-buy:hover {
+  background-color: #0056b3;
+}
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.filter-buttons button {
+  margin: 5px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.filter-buttons button.active,
+.filter-buttons button:hover {
+  background-color: #00a3c8;
+  color: white;
+}
+input.form-control{
+min-height: 56px;
+}
+
+/*============================swipe slider animation css here==========================================*/
+
+.trusted-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.trusted-section h2 {
+  letter-spacing: 0.5px;
+}
+
+.logo-item {
+  width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo-item:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.testimonial-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.client-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #00a3c8;
+}
+
+.stars {
+  color: #ffb400;
+  font-size: 1.1rem;
+}
+
+.testimonial-text {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/*=========================================================================*/
+
+.quote-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.quote-section .card {
+  border-radius: 20px;
+}
+
+.quote-section .form-control {
+  border-radius: 10px;
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+}
+
+.quote-section .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
