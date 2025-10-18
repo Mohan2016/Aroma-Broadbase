@@ -60,7 +60,7 @@
     }
     .contact-info i {
       font-size: 2rem;
-      color: #007bff;
+      color: #00a3c8;
       margin-bottom: 15px;
     }
     .contact-info h5 {
@@ -78,7 +78,7 @@
       box-shadow: none;
     }
     .btn-send {
-      background-color: #007bff;
+      background-color: #00a3c8;
       color: #fff;
       border: none;
       border-radius: 30px;

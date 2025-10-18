@@ -114,7 +114,7 @@
     }
     .filter-buttons button.active,
     .filter-buttons button:hover {
-      background-color: #007bff;
+      background-color: #00a3c8;
       color: white;
     }
     .footer {

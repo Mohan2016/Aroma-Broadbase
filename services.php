@@ -73,11 +73,11 @@
     }
     .service-card i {
       font-size: 45px;
-      color: #007bff;
+      color: #00a3c8;
       margin-bottom: 20px;
     }
     .cta-section {
-      background-color: #007bff;
+      background-color: #00a3c8;
       color: white;
       text-align: center;
       padding: 80px 20px;
